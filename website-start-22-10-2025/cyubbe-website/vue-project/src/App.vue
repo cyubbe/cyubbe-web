@@ -1,16 +1,21 @@
 <script setup>
 
+import BaseButton from "@/BaseButton.vue";
 </script>
 
 <template>
 
   <h1>Hello and Welcome to this very empty page!</h1>
 
+  <BaseButton  href="https://www.w3schools.com"> W3 Schools</BaseButton>
+
 </template>
 
 <style scoped>
-:global(body){
-  background-image: url("https://images.unsplash.com/photo-1712145176570-6cb1d98a126a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032");
-  background-color: #FEEBE7;
+:global(html, body) {
+  background-color: slategrey;
+  background-image: radial-gradient(#ff8bbf 0.8px, white 0.8px);
+  background-size: 10px 10px;
 }
+
 </style>
