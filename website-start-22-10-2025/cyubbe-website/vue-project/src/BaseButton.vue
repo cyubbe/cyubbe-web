@@ -17,7 +17,7 @@ const props = defineProps({
 .button {
   display: inline-block;
   text-align: center;
-  font-family: "Rubik Glitch", system-ui;
+  font-family: "Jost", system-ui;
   font-weight: 400;
   margin: 25px;
   width: 200px;
